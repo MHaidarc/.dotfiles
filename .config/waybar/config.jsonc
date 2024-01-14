@@ -9,7 +9,7 @@
     "height": 10,
     "modules-left": [
         "custom/arch",
-        "custom/spotify",
+        "custom/music",
         "battery"
     ],
     "modules-center": ["hyprland/workspaces"],
@@ -61,9 +61,9 @@
         "tooltip": false,
         "spacing": 10
     },
-    "custom/spotify": {
-        "exec": "/usr/bin/python3 ~/.config/waybar/modules/spotify.py --player spotify",
-        "format": " {}",
+    "custom/music": {
+        "exec": "/usr/bin/python3 ~/.config/waybar/modules/music.py --player cider",
+        "format": "󰎆 {}",
         "return-type": "json",
         "on-click": "playerctl play-pause",
         "on-scroll-up": "playerctl next",

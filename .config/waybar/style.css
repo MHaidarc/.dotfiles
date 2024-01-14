@@ -13,7 +13,7 @@
 #network,
 #workspaces,
 #custom-powermenu,
-#custom-spotify,
+#custom-music,
 #custom-arch {
   background-color: #1e1e2e;
   margin-top: 2px;
@@ -33,7 +33,7 @@
   border: 2px solid #9999cc;
   border-radius: 10px 10px 10px 10px;
 }
-#custom-spotify {
+#custom-music {
   margin-left: 3px;
   border: 2px solid #9999cc;
   border-radius: 10px 10px 10px 10px;
