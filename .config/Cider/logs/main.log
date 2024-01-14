@@ -1,0 +1,726 @@
+[2024-01-10 21:40:10.496] [info]  [AppEvents] App started
+[2024-01-10 21:40:10.926] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-10 21:40:14.113] [info]  [AppEvents] App ready
+[2024-01-10 21:40:14.115] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-10 21:40:14.115] [info]  aa
+[2024-01-10 21:40:19.400] [info]  [Cider] Creating Window.
+[2024-01-10 21:40:19.406] [info]  Setting up handlers for local files
+[2024-01-10 21:40:19.414] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-10 21:40:19.443] [info]  WebSocketServer started on port: 26369
+[2024-01-10 21:40:19.448] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'updated',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-10 21:40:19.482] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-10 21:40:19.483] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-10 21:40:19.483] [info]  Cider client port: 9000
+[2024-01-10 21:40:19.485] [info]  Cider remote port: 6942
+[2024-01-10 21:40:19.486] [info]  remote broadcasted
+[2024-01-10 21:57:23.010] [info]  [AppEvents] App started
+[2024-01-10 21:57:23.361] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-10 21:57:30.990] [info]  [AppEvents] App ready
+[2024-01-10 21:57:30.992] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-10 21:57:30.993] [info]  aa
+[2024-01-10 21:57:30.997] [info]  [Cider] Creating Window.
+[2024-01-10 21:57:31.014] [info]  Setting up handlers for local files
+[2024-01-10 21:57:31.019] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-10 21:57:31.061] [info]  WebSocketServer started on port: 26369
+[2024-01-10 21:57:31.069] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-10 21:57:31.112] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-10 21:57:31.114] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-10 21:57:31.115] [info]  Cider client port: 9000
+[2024-01-10 21:57:31.118] [info]  Cider remote port: 6942
+[2024-01-10 21:57:31.120] [info]  remote broadcasted
+[2024-01-10 22:08:58.509] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-10 22:08:58.509] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-10 22:08:58.540] [warn]  Cider exited.
+[2024-01-11 11:17:15.984] [info]  [AppEvents] App started
+[2024-01-11 11:17:16.340] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-11 11:17:27.920] [info]  [AppEvents] App ready
+[2024-01-11 11:17:27.921] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-11 11:17:27.922] [info]  aa
+[2024-01-11 11:17:27.925] [info]  [Cider] Creating Window.
+[2024-01-11 11:17:27.946] [info]  Setting up handlers for local files
+[2024-01-11 11:17:27.956] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-11 11:17:27.995] [info]  WebSocketServer started on port: 26369
+[2024-01-11 11:17:28.003] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-11 11:17:28.083] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-11 11:17:28.084] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-11 11:17:28.085] [info]  Cider client port: 9000
+[2024-01-11 11:17:28.087] [info]  Cider remote port: 6942
+[2024-01-11 11:17:28.088] [info]  remote broadcasted
+[2024-01-11 11:17:40.970] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-11 11:17:40.971] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-11 11:17:40.980] [warn]  Cider exited.
+[2024-01-12 00:41:22.872] [info]  [AppEvents] App started
+[2024-01-12 00:41:23.228] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 00:41:24.930] [info]  [AppEvents] App ready
+[2024-01-12 00:41:24.932] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 00:41:24.932] [info]  aa
+[2024-01-12 00:41:24.935] [info]  [Cider] Creating Window.
+[2024-01-12 00:41:24.946] [info]  Setting up handlers for local files
+[2024-01-12 00:41:24.950] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 00:41:24.983] [info]  WebSocketServer started on port: 26369
+[2024-01-12 00:41:24.994] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 00:41:25.040] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 00:41:25.049] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 00:41:25.049] [info]  Cider client port: 9000
+[2024-01-12 00:41:25.052] [info]  Cider remote port: 6942
+[2024-01-12 00:41:25.053] [info]  remote broadcasted
+[2024-01-12 00:43:14.850] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 00:43:14.851] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-12 00:43:14.876] [warn]  Cider exited.
+[2024-01-12 08:04:04.902] [info]  [AppEvents] App started
+[2024-01-12 08:04:05.292] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 08:04:12.590] [info]  [AppEvents] App ready
+[2024-01-12 08:04:12.591] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 08:04:12.591] [info]  aa
+[2024-01-12 08:04:12.593] [info]  [Cider] Creating Window.
+[2024-01-12 08:04:12.601] [info]  Setting up handlers for local files
+[2024-01-12 08:04:12.605] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 08:04:12.639] [info]  WebSocketServer started on port: 26369
+[2024-01-12 08:04:12.648] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 08:04:12.694] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 08:04:12.695] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 08:04:12.695] [info]  Cider client port: 9000
+[2024-01-12 08:04:12.697] [info]  Cider remote port: 6942
+[2024-01-12 08:04:12.698] [info]  remote broadcasted
+[2024-01-12 08:05:09.685] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 08:05:09.687] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-12 08:05:09.698] [warn]  Cider exited.
+[2024-01-12 09:19:29.334] [info]  [AppEvents] App started
+[2024-01-12 09:19:29.690] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 09:19:36.771] [info]  [AppEvents] App ready
+[2024-01-12 09:19:36.773] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 09:19:36.774] [info]  aa
+[2024-01-12 09:19:36.778] [info]  [Cider] Creating Window.
+[2024-01-12 09:19:36.803] [info]  Setting up handlers for local files
+[2024-01-12 09:19:36.809] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 09:19:36.852] [info]  WebSocketServer started on port: 26369
+[2024-01-12 09:19:36.863] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 09:19:36.904] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 09:19:36.906] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 09:19:36.906] [info]  Cider client port: 9000
+[2024-01-12 09:19:36.909] [info]  Cider remote port: 6942
+[2024-01-12 09:19:36.911] [info]  remote broadcasted
+[2024-01-12 09:20:34.985] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 09:20:34.986] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-12 09:20:34.998] [warn]  Cider exited.
+[2024-01-12 10:22:52.096] [info]  [AppEvents] App started
+[2024-01-12 10:22:52.432] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 10:22:55.997] [info]  [AppEvents] App ready
+[2024-01-12 10:22:55.998] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 10:22:55.999] [info]  aa
+[2024-01-12 10:22:56.001] [info]  [Cider] Creating Window.
+[2024-01-12 10:22:56.009] [info]  Setting up handlers for local files
+[2024-01-12 10:22:56.012] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 10:22:56.043] [info]  WebSocketServer started on port: 26369
+[2024-01-12 10:22:56.048] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 10:22:56.082] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 10:22:56.083] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 10:22:56.083] [info]  Cider client port: 9000
+[2024-01-12 10:22:56.084] [info]  Cider remote port: 6942
+[2024-01-12 10:22:56.085] [info]  remote broadcasted
+[2024-01-12 10:25:10.777] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 10:25:10.778] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-12 10:25:10.803] [warn]  Cider exited.
+[2024-01-12 14:02:59.441] [info]  [AppEvents] App started
+[2024-01-12 14:02:59.796] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 14:03:02.903] [info]  [AppEvents] App ready
+[2024-01-12 14:03:02.904] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 14:03:02.905] [info]  aa
+[2024-01-12 14:03:02.906] [info]  [Cider] Creating Window.
+[2024-01-12 14:03:02.913] [info]  Setting up handlers for local files
+[2024-01-12 14:03:02.916] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 14:03:02.952] [info]  WebSocketServer started on port: 26369
+[2024-01-12 14:03:02.962] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 14:03:03.003] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 14:03:03.005] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 14:03:03.005] [info]  Cider client port: 9000
+[2024-01-12 14:03:03.008] [info]  Cider remote port: 6942
+[2024-01-12 14:03:03.010] [info]  remote broadcasted
+[2024-01-12 14:03:07.994] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 14:03:07.994] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-12 14:03:08.002] [warn]  Cider exited.
+[2024-01-12 19:47:36.768] [info]  [AppEvents] App started
+[2024-01-12 19:47:37.122] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 19:47:37.314] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 19:47:37.314] [error] Error: getaddrinfo EAI_AGAIN distributions.crowdin.net
+    at Function.AxiosError.from (/opt/Cider/resources/app.asar/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (/opt/Cider/resources/app.asar/node_modules/axios/lib/adapters/http.js:591:25)
+    at RedirectableRequest.emit (node:events:513:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (/opt/Cider/resources/app.asar/node_modules/follow-redirects/index.js:14:24)
+    at ClientRequest.emit (node:events:525:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket.emit (node:domain:489:12)
+[2024-01-12 20:38:21.292] [info]  [AppEvents] App started
+[2024-01-12 20:38:21.646] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 20:38:30.802] [info]  [AppEvents] App ready
+[2024-01-12 20:38:30.802] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 20:38:30.803] [info]  aa
+[2024-01-12 20:38:30.804] [info]  [Cider] Creating Window.
+[2024-01-12 20:38:30.812] [info]  Setting up handlers for local files
+[2024-01-12 20:38:30.815] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 20:38:30.853] [info]  WebSocketServer started on port: 26369
+[2024-01-12 20:38:30.860] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 20:38:30.903] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 20:38:30.904] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 20:38:30.904] [info]  Cider client port: 9000
+[2024-01-12 20:38:30.907] [info]  Cider remote port: 6942
+[2024-01-12 20:38:30.908] [info]  remote broadcasted
+[2024-01-12 20:59:34.830] [warn]  Cider exited.
+[2024-01-12 20:59:58.383] [info]  [AppEvents] App started
+[2024-01-12 20:59:58.733] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 21:00:08.612] [info]  [AppEvents] App ready
+[2024-01-12 21:00:08.613] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 21:00:08.613] [info]  aa
+[2024-01-12 21:00:08.615] [info]  [Cider] Creating Window.
+[2024-01-12 21:00:08.621] [info]  Setting up handlers for local files
+[2024-01-12 21:00:08.625] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 21:00:08.659] [info]  WebSocketServer started on port: 26369
+[2024-01-12 21:00:08.670] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 21:00:08.712] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 21:00:08.714] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 21:00:08.714] [info]  Cider client port: 9000
+[2024-01-12 21:00:08.717] [info]  Cider remote port: 6942
+[2024-01-12 21:00:08.718] [info]  remote broadcasted
+[2024-01-12 21:09:09.388] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 21:09:09.388] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-12 21:09:09.416] [warn]  Cider exited.
+[2024-01-12 23:31:02.944] [info]  [AppEvents] App started
+[2024-01-12 23:31:03.314] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2024-01-12 23:31:12.314] [info]  [AppEvents] App ready
+[2024-01-12 23:31:12.315] [info]  [Cider] Application is Ready. Creating Window.
+[2024-01-12 23:31:12.315] [info]  aa
+[2024-01-12 23:31:12.317] [info]  [Cider] Creating Window.
+[2024-01-12 23:31:12.323] [info]  Setting up handlers for local files
+[2024-01-12 23:31:12.327] [info]  [Connect] Auth URL: https://connect.cidercollective.dev/callback/discord?app=cider&appPort=9000
+[2024-01-12 23:31:12.361] [info]  WebSocketServer started on port: 26369
+[2024-01-12 23:31:12.372] [info]  [Cider][Widevine] Status: {
+  oimompecagnajdejgnnjijobebaeigek: {
+    name: 'Widevine Content Decryption Module',
+    status: 'new',
+    version: '4.10.2710.0'
+  }
+}
+[2024-01-12 23:31:12.416] [info]  {
+  auxAttributes: {
+    amdSwitchable: false,
+    canSupportThreadedTextureMailbox: false,
+    glImplementationParts: '(gl=none,angle=none)',
+    glResetNotificationStrategy: 0,
+    inProcessGpu: true,
+    initializationTime: 0,
+    isAsan: false,
+    isClangCoverage: false,
+    jpegDecodeAcceleratorSupported: false,
+    optimus: false,
+    passthroughCmdDecoder: false,
+    sandboxed: false,
+    subpixelFontRendering: true,
+    targetCpuBits: 64,
+    visibilityCallbackCallCount: 0
+  },
+  gpuDevice: [
+    {
+      active: true,
+      cudaComputeCapabilityMajor: 0,
+      deviceId: 5382,
+      gpuPreference: 0,
+      vendorId: 4098
+    }
+  ]
+}
+[2024-01-12 23:31:12.417] [info]  From here can you check for real changes, the initial scan has been completed.
+[2024-01-12 23:31:12.417] [info]  Cider client port: 9000
+[2024-01-12 23:31:12.419] [info]  Cider remote port: 6942
+[2024-01-12 23:31:12.428] [info]  remote broadcasted
+[2024-01-12 23:39:54.243] [warn]  This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2024-01-12 23:39:54.243] [error] Error: Script failed to execute, this normally means an error was thrown. Check the renderer console for the error.
+    at node:electron/js2c/sandbox_bundle:2:55792
+    at EventEmitter.<anonymous> (node:electron/js2c/sandbox_bundle:2:49921)
+    at EventEmitter.emit (node:electron/js2c/sandbox_bundle:2:35718)
+    at Object.onMessage (node:electron/js2c/sandbox_bundle:2:47988)
+[2024-01-12 23:39:54.270] [warn]  Cider exited.
