@@ -21,7 +21,7 @@ while true; do
 		done \
 		| sort -n | cut -d':' -f2- \
 		| while read -r img; do
-			swww img "$img" --transition-type random
+			swww img "$img" --transition-type random --transition-step 60
 			sleep $INTERVAL
 		done
 done

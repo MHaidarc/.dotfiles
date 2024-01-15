@@ -9,11 +9,11 @@
 # ----------------------------------------------------- 
 
 ignore-empty-password
-font="Fira Sans Semibold"
+font="Fira Code Nerd"
 
 clock
 timestr=%R
-datestr=%a, %e of %B
+datestr=%a, %e de %B
 
 # Add current screenshot as wallpaper
 
