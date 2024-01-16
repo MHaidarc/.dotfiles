@@ -2,7 +2,7 @@
 #   man 5 mako
 # To view all configuration options.
 
-font=Ubuntu Nerd Font Regular 11
+font=Fira Code Nerd Font Regular 11
 format=<b>%a </b> %s\n%b
 sort=-time
 border-color=#9999CC
