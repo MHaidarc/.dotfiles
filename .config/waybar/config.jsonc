@@ -21,7 +21,7 @@
         "custom/powermenu"
     ],
     "custom/arch": {
-        "format":"  ",
+        "format":"󰣇 ",
       "tooltip": false,
       "on-click": "rofi -show drun"
     },
